@@ -1,1 +1,296 @@
-# setagayaku-hoiku-kyujin
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【世田谷区近辺の人気保育園TOP3】</title>
+  
+  <!-- Tailwind CSS の読み込み -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-rose-50 font-sans text-slate-800 p-3 md:p-8">
+  <div class="max-w-3xl mx-auto">
+    
+    <!-- ヘッダー -->
+    <div class="text-center mb-8 mt-4 px-2">
+      <h1 class="text-xl md:text-4xl font-black text-rose-700 mb-3 tracking-tight">【世田谷区近辺の人気保育園TOP3】</h1>
+      <!-- スマホの幅でも確実に1行で表示されるように文字サイズを調整 -->
+      <p class="text-[12px] min-[375px]:text-[14px] sm:text-base md:text-xl text-rose-500 font-bold whitespace-nowrap tracking-tighter sm:tracking-normal">
+        本日頂いたお勧め求人をピックアップしました！
+      </p>
+    </div>
+
+    <!-- ＝＝＝＝＝＝＝＝ 求人1 ＝＝＝＝＝＝＝＝ -->
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-rose-100 mb-10">
+      <!-- 画像セクション -->
+      <div class="relative w-full aspect-video bg-slate-100 overflow-hidden">
+        <img src="./photo1.png" alt="求人1のイメージ" class="w-full h-full object-cover">
+        <div class="absolute top-3 left-3 bg-white/95 backdrop-blur px-3 py-2 rounded-xl shadow-sm border-l-4 border-rose-400">
+          <span class="text-sm md:text-lg font-black text-slate-800 tracking-wider">
+            園名：ぽこころ保育園祖師谷 <span class="text-rose-600 text-xs md:text-base">（残枠1名）</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- コンテンツセクション -->
+      <div class="p-5 md:p-8">
+        <!-- 基本情報 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-6 bg-rose-50/50 p-5 md:p-8 rounded-2xl border border-rose-100 mb-6">
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">勤務地</div>
+              <div class="text-lg md:text-xl font-bold text-slate-800 break-words">東京都世田谷区祖師谷</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle><path d="M6 12h.01M18 12h.01"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">月給</div>
+              <div class="text-xl md:text-2xl font-black text-rose-600 break-words">288,300 円〜</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">賞与</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">前年実績 2.15ヶ月分</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">年間休日</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">129 日</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- おすすめポイント（折りたたみ） -->
+        <div class="mt-8">
+          <p class="text-xs md:text-sm text-slate-500 font-bold mb-3 text-center">おすすめ情報を閲覧したい方は、以下をタップすると表示されます！</p>
+          <button 
+            onclick="const content = this.nextElementSibling; content.classList.toggle('hidden'); const icon = this.querySelector('.chevron'); icon.classList.toggle('rotate-180');" 
+            class="w-full flex items-center justify-between bg-white hover:bg-rose-50 p-4 rounded-xl border-2 border-rose-200 shadow-sm transition-all focus:outline-none"
+          >
+            <span class="text-lg md:text-xl font-black text-rose-600 flex items-center gap-3">
+              <span class="bg-rose-100 p-1.5 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg></span>
+              おすすめポイント
+            </span>
+            <svg class="chevron transition-transform duration-300 text-rose-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          
+          <ul class="hidden space-y-5 mt-5 px-2 md:px-4 pb-2">
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>手作業を徹底的に削減！年間休日129日に加え、入社時に有給5日間が付与される働きやすい環境です。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>初期費用（敷金・礼金等）も上限なく法人負担！上限9万円の借り上げ社宅制度（自己負担1万円＋超過分）が利用可能です。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>月給28.8万円～の高待遇！働く人と子どもたちにとっての「もう一つの家」を目指すあたたかい保育を行っています。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>美味しい給食費補助（自己負担1食380円）や退職金制度など福利厚生も充実。Web面接1回のみのスピーディーな選考です。</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ＝＝＝＝＝＝＝＝ 求人2 ＝＝＝＝＝＝＝＝ -->
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-rose-100 mb-10">
+      <!-- 画像セクション -->
+      <div class="relative w-full aspect-video bg-slate-100 overflow-hidden">
+        <img src="./photo2.png" alt="求人2のイメージ" class="w-full h-full object-cover">
+        <div class="absolute top-3 left-3 bg-white/95 backdrop-blur px-3 py-2 rounded-xl shadow-sm border-l-4 border-rose-400">
+          <span class="text-sm md:text-lg font-black text-slate-800 tracking-wider">
+            園名：ポピンズナーサリースクール経堂南 <span class="text-rose-600 text-xs md:text-base">（残枠2名）</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- コンテンツセクション -->
+      <div class="p-5 md:p-8">
+        <!-- 基本情報 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-6 bg-rose-50/50 p-5 md:p-8 rounded-2xl border border-rose-100 mb-6">
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">勤務地</div>
+              <div class="text-lg md:text-xl font-bold text-slate-800 break-words">東京都世田谷区経堂</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle><path d="M6 12h.01M18 12h.01"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">月給</div>
+              <div class="text-xl md:text-2xl font-black text-rose-600 break-words">295,700 円〜</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">賞与</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">年2回（目安55.8万円〜）</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">年間休日</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">125 日</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- おすすめポイント（折りたたみ） -->
+        <div class="mt-8">
+          <p class="text-xs md:text-sm text-slate-500 font-bold mb-3 text-center">おすすめ情報を閲覧したい方は、以下をタップすると表示されます！</p>
+          <button 
+            onclick="const content = this.nextElementSibling; content.classList.toggle('hidden'); const icon = this.querySelector('.chevron'); icon.classList.toggle('rotate-180');" 
+            class="w-full flex items-center justify-between bg-white hover:bg-rose-50 p-4 rounded-xl border-2 border-rose-200 shadow-sm transition-all focus:outline-none"
+          >
+            <span class="text-lg md:text-xl font-black text-rose-600 flex items-center gap-3">
+              <span class="bg-rose-100 p-1.5 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg></span>
+              おすすめポイント
+            </span>
+            <svg class="chevron transition-transform duration-300 text-rose-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          
+          <ul class="hidden space-y-5 mt-5 px-2 md:px-4 pb-2">
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>年間休日125日＆残業は月平均わずか7時間！有給や特別休暇もたっぷりあり、オンオフのメリハリをつけて働けます。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>借り上げ社宅制度の初期費用は法人負担！さらに引越し初期費用補助（上限20万円）もあり、上京・一人暮らしを全力サポート。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>教科書ではなく「本物」に触れて自然と学べる保育を実践。四季折々の自然を感じながら、子どもたちの成長を見守れます。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>海外研修など豊富な研修制度でキャリアアップを応援！メンタルヘルスカウンセリング等、心身のケア体制も万全です。</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ＝＝＝＝＝＝＝＝ 求人3 ＝＝＝＝＝＝＝＝ -->
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-rose-100 mb-10">
+      <!-- 画像セクション -->
+      <div class="relative w-full aspect-video bg-slate-100 overflow-hidden">
+        <img src="./photo3.png" alt="求人3のイメージ" class="w-full h-full object-cover">
+        <div class="absolute top-3 left-3 bg-white/95 backdrop-blur px-3 py-2 rounded-xl shadow-sm border-l-4 border-rose-400">
+          <span class="text-sm md:text-lg font-black text-slate-800 tracking-wider">
+            園名：太陽の子 千歳台二丁目保育園 <span class="text-rose-600 text-xs md:text-base">（残枠1名）</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- コンテンツセクション -->
+      <div class="p-5 md:p-8">
+        <!-- 基本情報 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-6 bg-rose-50/50 p-5 md:p-8 rounded-2xl border border-rose-100 mb-6">
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">勤務地</div>
+              <div class="text-lg md:text-xl font-bold text-slate-800 break-words">東京都世田谷区千歳台</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle><path d="M6 12h.01M18 12h.01"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">月給</div>
+              <div class="text-xl md:text-2xl font-black text-rose-600 break-words">266,000 円〜</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">賞与</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">年2回（計3.0ヶ月分）</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-rose-400 shrink-0 mt-0.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-rose-600 mb-1">年間休日</div>
+              <div class="text-base md:text-xl font-bold text-slate-800 break-words">123 日</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- おすすめポイント（折りたたみ） -->
+        <div class="mt-8">
+          <p class="text-xs md:text-sm text-slate-500 font-bold mb-3 text-center">おすすめ情報を閲覧したい方は、以下をタップすると表示されます！</p>
+          <button 
+            onclick="const content = this.nextElementSibling; content.classList.toggle('hidden'); const icon = this.querySelector('.chevron'); icon.classList.toggle('rotate-180');" 
+            class="w-full flex items-center justify-between bg-white hover:bg-rose-50 p-4 rounded-xl border-2 border-rose-200 shadow-sm transition-all focus:outline-none"
+          >
+            <span class="text-lg md:text-xl font-black text-rose-600 flex items-center gap-3">
+              <span class="bg-rose-100 p-1.5 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg></span>
+              おすすめポイント
+            </span>
+            <svg class="chevron transition-transform duration-300 text-rose-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          
+          <ul class="hidden space-y-5 mt-5 px-2 md:px-4 pb-2">
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>持ち帰り仕事は完全禁止！残業代は1分単位で支給され、年間平均残業時間は1日わずか16.8分と働きやすさ抜群です。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>年間休日123日＆初年度有給16日付与！過去には12連休の取得実績もあり、プライベートの時間をしっかり確保できます。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>借り上げ社宅制度（上限8.2万〜10.2万）や住宅手当を完備！1都3県以外からの引越しなら初期費用も法人負担となります。</span>
+            </li>
+            <li class="flex items-start gap-3 text-base md:text-lg font-bold text-slate-700 leading-relaxed break-words">
+              <span class="text-rose-400 mt-1 shrink-0 text-xl">★</span>
+              <span>「つながり保育」を軸に、絵本を取り入れた心温まる保育を実践。テーマパーク割引など独自の嬉しい優待サービスも利用可能です。</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ＝＝＝＝＝＝＝＝ LINEお友だち追加エリア ＝＝＝＝＝＝＝＝ -->
+    <div class="mt-10 mb-16 bg-white rounded-3xl shadow-xl border-2 border-[#06C755]/30 p-6 md:p-12 text-center relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-3 bg-[#06C755]"></div>
+      <h3 class="text-xl md:text-3xl font-black text-slate-800 mb-5">
+        気になった求人はありましたか？
+      </h3>
+      <p class="text-base md:text-xl text-slate-600 font-bold mb-8 leading-relaxed">
+        今回の求人の詳細や、面接・見学のご相談につきましては、<br class="hidden md:block" />
+        専任のキャリアアドバイザー（CA）がLINEにて個別にご案内いたします。<br />
+        ぜひお気軽に友だち追加をしてメッセージをお送りください！
+      </p>
+      <a 
+        href="https://works.do/R/ti/p/ho.73521@hoikushicarrier" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 bg-[#06C755] hover:bg-[#05b34c] text-white text-lg md:text-2xl font-bold py-4 px-6 md:px-14 rounded-full transition-all shadow-md hover:shadow-lg transform hover:-translate-y-1 w-full sm:w-auto"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>
+        LINEで求人の詳細を聞く
+      </a>
+    </div>
+
+  </div>
+</body>
+</html>
